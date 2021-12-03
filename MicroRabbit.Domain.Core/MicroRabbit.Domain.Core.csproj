@@ -8,10 +8,14 @@
     <None Remove="Bus\" />
     <None Remove="Commands\" />
     <None Remove="Events\" />
+    <None Remove="MediatR" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bus\" />
     <Folder Include="Commands\" />
     <Folder Include="Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 </Project>
