@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bus\" />
+    <None Remove="Commands\" />
+    <None Remove="Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bus\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Events\" />
+  </ItemGroup>
+</Project>
